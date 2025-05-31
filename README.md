@@ -10,5 +10,3 @@ The results demonstrate that appropriate feature selection improves forecasting 
 
 Beyond quantitative improvements, this work contributes to model interpretability by highlighting the types of features most consistently selected across methods and models. Two final feature sets are proposed for operational use, one for each model, and the full implementation is made publicly available, offering a foundation for future adaptation and extension as the electricity landscape evolves.
 
-## Project Structure
-
