@@ -1,5 +1,9 @@
 # Feature-selection-for-sysem-imbalance-forecasting
 This project explores and compares different **feature selection methods** for improving **system imbalance forecasting** models. The goal is to identify the most relevant predictors for short-term electricity imbalance in Belgium.
+**Author: Jannes De Sutter**  
+MSc Mechanical Engineering at KU Leuven  
+Academic year 2024–2025
+
 ## Abstract
 
 In the context of liberalized electricity markets and increasing reliance on intermittent renewable energy sources, accurate forecasting of system imbalance has become essential for maintaining grid stability and enabling sound operational decisions. This thesis introduces a structured evaluation of feature selection methods, filling a notable gap in the literature on short-term imbalance forecasting in Belgium.
