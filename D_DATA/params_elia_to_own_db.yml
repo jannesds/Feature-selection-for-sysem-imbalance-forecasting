@@ -1,0 +1,213 @@
+#Nested dictionaries, with more information about each feature
+#
+---
+transform_params:
+  imba_price_qh_hist_old:
+    columns_kept:
+      - datetime
+      - netregulationvolume
+      - systemimbalance
+      - marginalincrementalprice
+      - marginaldecrementalprice
+    rename_dict:
+      netregulationvolume: "NRV"
+      systemimbalance: "SI"
+      ace: "ACE"
+      marginalincrementalprice: "MIP"
+      marginaldecrementalprice: "MDP"
+
+  imba_price_qh_min_old:
+    columns_kept:
+      - datetime
+      - netregulationvolume
+      - systemimbalance
+      - marginalincrementalprice
+      - marginaldecrementalprice
+      - positiveimbalanceprice
+    rename_dict:
+      netregulationvolume: "NRV_min"
+      systemimbalance: "SI_min"
+      marginalincrementalprice: "MIP_min"
+      marginaldecrementalprice: "MDP_min"
+      positiveimbalanceprice: "IP_min"
+
+  load_hist:
+    columns_kept:
+      - datetime
+      - totalload
+      - mostrecentforecast
+      - dayaheadforecast
+      - mostrecentconfidence90
+    rename_dict:
+      totalload: "LOAD_RT"
+      mostrecentforecast: "LOAD_ID"
+      dayaheadforecast: "LOAD_DA"
+      mostrecentconfidence90: "LOAD_ID_P90"
+
+  imbalance_tariff:
+    columns_kept:
+      - datetime
+      - positiveimbalanceprice
+    rename_dict:
+      positiveimbalanceprice: "IP"
+
+  day_ahead_impl_net_pos_sum:
+    columns_kept:
+      - datetime
+      - commercialschedule
+      - direction
+      - country
+#     - commercialschedule_UnitedKingdom
+#     - commercialschedule_Germany
+#     - commercialschedule_Netherlands
+#     - commercialschedule_France
+#     - Import_UnitedKingdom
+#     - Import_Germany
+#     - Import_Netherlands
+#     - Import_France
+#     - Export_UnitedKingdom
+#     - Export_Germany
+#     - Export_Netherlands
+#     - Export_France
+    rename_dict:
+      commercialschedule: "XB_DA"
+
+  final_com_sched:
+    columns_kept:
+      - datetime
+      - import_value
+      - export_value
+      - country
+    rename_dict:
+      commercialschedule: "XB_ID"
+
+  intraday_impl_net_pos_BE:
+    columns_kept:
+      - datetime
+      - implicitnetposition
+    rename_dict:
+      implicitnetposition: "NETPOS_BE_ID"
+
+  day_ahead_impl_net_pos_GB:
+    columns_kept:
+      - datetime
+      - nettransfercapacity
+      - direction
+    rename_dict:
+      nettransfercapacity: "NETPOS_GB_DA"
+
+  intraday_impl_net_pos_GB:
+    columns_kept:
+      - datetime
+      - direction
+      - nettransfercapacity
+    rename_dict:
+      nettransfercapacity: "NETPOS_GB_ID"
+
+  pv_prod_hist:
+    columns_kept:
+      - datetime
+      - measured
+      - region
+      - mostrecentforecast
+      - mostrecentconfidence90
+    rename_dict:
+      measured: "SOLAR_RT"
+      mostrecentforecast: "SOLAR_ID"
+      mostrecentconfidence90: "SOLAR_P90"      
+
+  wind_prod_hist:
+    columns_kept:
+      - datetime
+      - measured
+      - mostrecentforecast
+      - mostrecentconfidence90
+    rename_dict:
+      measured: "WIND_RT"
+      mostrecentforecast: "WIND_ID"
+      mostrecentconfidence90: "WIND_P90"
+
+  physical_flow_by_border:
+    columns_kept:
+      - datetime
+      - controlarea
+      - physicalflowatborder
+    rename_dict:
+      controlarea: "COUNTRY"
+      physicalflowatborder: "XB_RT"
+
+  DA_sched_FT_old:
+    columns_kept:
+      - datetime
+      - dayaheadgenerationschedule
+    rename_dict:
+      dayaheadgenerationschedule: "GEN_DA"
+
+  indiv_incr_bal_en_bids_hist_old:
+    columns_kept:
+      - datetime
+      - balancingreserve
+      - energybidvolume
+      - energybidmarginalprice
+    rename_dict:
+      balancingreserve: "RES"
+      energybidvolume: "BID_V"
+      energybidmarginalprice: "BID_P"
+
+  act_bal_en_vol_qh_old:
+    columns_kept:
+      - datetime
+      - grossupwardregulationvolume
+      - igccvolumeup
+      - r2volumeup
+      - r3stdvolume
+      - grossdownwardregulationvolume
+      - igccvolumedown
+      - r2volumedown
+    rename_dict:
+      grossupwardregulationvolume: "GUV"
+      igccvolumeup: "IGCC+"
+      r2volumeup: "aFRR+"
+      r3stdvolume: "mFRR+"
+      grossdownwardregulationvolume: "GDV"
+      igccvolumedown: "IGCC-"
+      r2volumedown: "aFRR-"
+
+
+  act_bal_en_volumes:
+    columns_kept:
+      - datetime
+      - grossupwardregulationvolume
+      - igccvolumeup
+      - r2volumeup
+      - grossdownwardregulationvolume
+      - igccvolumedown
+      - r2volumedown
+    rename_dict:
+      grossupwardregulationvolume: "GUV_min"
+      igccvolumeup: "IGCC+_min"
+      r2volumeup: "aFRR+_min"
+      grossdownwardregulationvolume: "GDV_min"
+      igccvolumedown: "IGCC-_min"
+      r2volumedown: "aFRR-_min"
+
+
+  si_forecast_qh_0:
+    columns_kept:
+      - datetime
+      - predictions_forecastedtimeutc
+      - predictions_silinearregressionforecast
+    rename_dict:
+      predictions_forecastedtimeutc: "datetime_prediction_qh_current"
+      predictions_silinearregressionforecast: "si_forecast_qh_current"
+
+  si_forecast_qh_1:
+    columns_kept:
+      - datetime
+      - predictions_forecastedtimeutc
+      - predictions_silinearregressionforecast
+    rename_dict:
+      predictions_forecastedtimeutc: "datetime_prediction_qh_plus1"
+      predictions_silinearregressionforecast: "si_forecast_qh_plus1"
+
+

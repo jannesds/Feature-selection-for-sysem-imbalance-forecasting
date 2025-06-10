@@ -1,0 +1,33 @@
+#List of input variables used by Elia
+#double check usecase of lag_features
+---
+quarter_hours:
+  interval_minutes: 15
+  dataset_names:
+    - imba_price_qh_hist_old
+    - load_hist
+    - imbalance_tariff
+    - day_ahead_impl_net_pos_sum
+    - final_com_sched
+    - intraday_impl_net_pos_BE
+    - pv_prod_hist
+    - wind_prod_hist
+    - physical_flow_by_border
+    - act_bal_en_vol_qh_old
+    - DA_sched_FT_old
+#    - indiv_decr_bal_en_bids_old
+#    - indiv_incr_bal_en_bids_hist_old
+
+hours:
+  interval_minutes: 60
+  dataset_names:
+    - day_ahead_impl_net_pos_GB
+    - intraday_impl_net_pos_GB
+
+minutes:
+  interval_minutes: 1
+  dataset_names:
+    - imba_price_qh_min_old
+    - act_bal_en_volumes
+#    - si_forecast_qh_1
+#    - si_forecast_qh_0

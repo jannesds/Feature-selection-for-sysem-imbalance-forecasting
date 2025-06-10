@@ -1,0 +1,34 @@
+base_url: "https://opendata.elia.be/api/explore/v2.1"
+endpoint: "/catalog/datasets/%s/exports/json"
+names_map:
+#
+# quarter hours
+  imba_price_qh_hist_old: "ods047"
+  imbalance_tariff: "ods047"
+  day_ahead_impl_net_pos_sum: "ods015"
+  intraday_impl_net_pos_BE: "ods022"
+  load_hist: "ods001"
+  pv_prod_hist: "ods032"
+  wind_prod_hist: "ods031"
+  physical_flow_by_border: "ods026"
+  final_com_sched: "ods016"
+  act_bal_en_vol_qh_old: "ods063"
+  DA_sched_FT_old: "ods034"
+#  indiv_decr_bal_en_bids_old: "ods069"
+  indiv_incr_bal_en_bids_hist_old: "ods068"
+#
+# minutes, NRV and SI
+  imba_price_qh_min_old: "ods046"
+  act_bal_en_volumes: "ods061"
+  si_forecast_qh_1: "ods147"
+  si_forecast_qh_0: "ods136"
+#
+# hours, lookback horizon
+  day_ahead_impl_net_pos_GB: "ods009"
+  intraday_impl_net_pos_GB: "ods011"
+#
+#  historic_imba_qh: "ods045"
+  imba_price_qh_hist: "ods134"
+  indiv_incr_bal_en_bids_hist: "ods156"
+
+  
