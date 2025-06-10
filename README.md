@@ -14,3 +14,15 @@ The methodology relies on constructing lagged versions of input variables across
 Beyond quantitative improvements, this work provides insight into the temporal and contextual relevance of individual features. Several variables are consistently selected across methods and models, showing high importance when included. Wind and solar generation features stand out, einforcing the link between renewable production and system imbalance. Furthermore, recurring patterns in cross-border nominations, particularly with France and the Netherlands, suggest their notable impact on imbalance dynamics. 
 
 Two final feature sets are proposed for operational use, one for each model, and the full implementation is made publicly available, offering a foundation for future adaptation and extension as the electricity landscape evolves and additional data sources become available.
+
+Below is a short guide to the folders:
+
+- **`A_Filter/`** – Filter methods (e.g. correlation, mutual information).  
+- **`B_Wrapper/`** – Wrapper methods using backtesting (e.g. Sequential Feature Selection).  
+- **`C_Embedded/`** – Embedded methods (e.g. Lasso, model-based importance).  
+- **`data/`** – Preprocessed datasets with lagged features from various time resolutions.  
+- **`models/`** – Saved models and results.  
+- **`logs_vsc/`** – Experiment logs and training metrics.  
+- **`source/`** – Core utilities for preprocessing, training, and evaluation.  
+- **`MastersThesis_DeSutter_Jannes.pdf`** – Full thesis document.  
+- **`README.md`** – Project overview and folder guide.
