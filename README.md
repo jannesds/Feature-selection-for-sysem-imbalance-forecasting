@@ -17,12 +17,11 @@ Two final feature sets are proposed for operational use, one for each model, and
 
 Below is a short guide to the folders:
 
-- **`A_Filter/`** – Filter methods (e.g. correlation, mutual information).  
-- **`B_Wrapper/`** – Wrapper methods using backtesting (e.g. Sequential Feature Selection).  
-- **`C_Embedded/`** – Embedded methods (e.g. Lasso, model-based importance).  
-- **`data/`** – Preprocessed datasets with lagged features from various time resolutions.  
+- **`A_Filter/`** – Filter methods (Pearson correlation, mutual information, PCA).  
+- **`B_Wrapper/`** – Wrapper methods (RFE, SF(F)S, SB(F)S, GA, PSO).  
+- **`C_Embedded/`** – Embedded methods (RF, LASSO).  
+- **`data/`** – Preprocessed datasets with lagged features from various time resolutions, from Elia open data platform.  
 - **`models/`** – Saved models and results.  
 - **`logs_vsc/`** – Experiment logs and training metrics.  
 - **`source/`** – Core utilities for preprocessing, training, and evaluation.  
 - **`MastersThesis_DeSutter_Jannes.pdf`** – Full thesis document.  
-- **`README.md`** – Project overview and folder guide.
