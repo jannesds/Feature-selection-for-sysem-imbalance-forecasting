@@ -1,0 +1,280 @@
+/vsc-hard-mounts/leuven-data/377/vsc37708/source/Cross_Validation.py:141: FutureWarning: The behavior of array concatenation with empty entries is deprecated. In a future version, this will no longer exclude empty items when determining the result dtype. To retain the old behavior, exclude the empty entries before the concat operation.
+  backtest = pd.concat([backtest, y_test], axis=0)
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  31 out of  62 | elapsed:  4.2min remaining:  4.2min
+[Parallel(n_jobs=-1)]: Done  62 out of  62 | elapsed:  5.5min finished
+
+[2025-05-29 08:12:54] Features: 61/1 -- score: -96.32018374159196[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  27 out of  61 | elapsed:  1.8min remaining:  2.3min
+[Parallel(n_jobs=-1)]: Done  58 out of  61 | elapsed:  2.8min remaining:    8.8s
+[Parallel(n_jobs=-1)]: Done  61 out of  61 | elapsed:  3.3min finished
+
+[2025-05-29 08:16:11] Features: 60/1 -- score: -96.55885920671167[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  26 out of  60 | elapsed:  4.9min remaining:  6.4min
+[Parallel(n_jobs=-1)]: Done  57 out of  60 | elapsed:  5.9min remaining:   18.5s
+[Parallel(n_jobs=-1)]: Done  60 out of  60 | elapsed:  6.0min finished
+
+[2025-05-29 08:22:12] Features: 59/1 -- score: -96.43150758658814[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  22 out of  59 | elapsed:  5.0min remaining:  8.5min
+[Parallel(n_jobs=-1)]: Done  52 out of  59 | elapsed:  5.6min remaining:   45.4s
+[Parallel(n_jobs=-1)]: Done  59 out of  59 | elapsed:  6.1min finished
+
+[2025-05-29 08:28:21] Features: 58/1 -- score: -96.25513995768243[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  21 out of  58 | elapsed:  4.8min remaining:  8.5min
+[Parallel(n_jobs=-1)]: Done  51 out of  58 | elapsed:  5.9min remaining:   48.9s
+[Parallel(n_jobs=-1)]: Done  58 out of  58 | elapsed:  6.6min finished
+
+[2025-05-29 08:34:58] Features: 57/1 -- score: -96.2090246208809[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  17 out of  57 | elapsed:  8.2min remaining: 19.3min
+[Parallel(n_jobs=-1)]: Done  46 out of  57 | elapsed:  9.1min remaining:  2.2min
+[Parallel(n_jobs=-1)]: Done  57 out of  57 | elapsed: 11.1min finished
+
+[2025-05-29 08:46:01] Features: 56/1 -- score: -95.73770626292558[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  16 out of  56 | elapsed:  3.8min remaining:  9.4min
+[Parallel(n_jobs=-1)]: Done  45 out of  56 | elapsed:  4.5min remaining:  1.1min
+[Parallel(n_jobs=-1)]: Done  56 out of  56 | elapsed:  5.1min finished
+
+[2025-05-29 08:51:10] Features: 55/1 -- score: -95.94737554446966[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  12 out of  55 | elapsed:  6.1min remaining: 22.0min
+[Parallel(n_jobs=-1)]: Done  40 out of  55 | elapsed:  7.2min remaining:  2.7min
+[Parallel(n_jobs=-1)]: Done  55 out of  55 | elapsed:  8.3min finished
+
+[2025-05-29 08:59:30] Features: 54/1 -- score: -96.26948385598067[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  11 out of  54 | elapsed:  6.3min remaining: 24.7min
+[Parallel(n_jobs=-1)]: Done  39 out of  54 | elapsed:  7.0min remaining:  2.7min
+[Parallel(n_jobs=-1)]: Done  54 out of  54 | elapsed:  8.1min finished
+
+[2025-05-29 09:07:34] Features: 53/1 -- score: -95.82068555017526[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   7 out of  53 | elapsed:  2.7min remaining: 18.0min
+[Parallel(n_jobs=-1)]: Done  34 out of  53 | elapsed:  4.5min remaining:  2.5min
+[Parallel(n_jobs=-1)]: Done  53 out of  53 | elapsed:  5.7min finished
+
+[2025-05-29 09:13:14] Features: 52/1 -- score: -95.8683941091896[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   6 out of  52 | elapsed:  5.2min remaining: 40.2min
+[Parallel(n_jobs=-1)]: Done  33 out of  52 | elapsed:  6.3min remaining:  3.6min
+[Parallel(n_jobs=-1)]: Done  52 out of  52 | elapsed:  7.6min finished
+
+[2025-05-29 09:20:48] Features: 51/1 -- score: -96.00881900334338[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  51 | elapsed:  4.7min remaining: 116.3min
+[Parallel(n_jobs=-1)]: Done  28 out of  51 | elapsed:  6.6min remaining:  5.4min
+[Parallel(n_jobs=-1)]: Done  51 out of  51 | elapsed:  7.5min finished
+
+[2025-05-29 09:28:18] Features: 50/1 -- score: -96.00736920761535[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  27 out of  50 | elapsed:  4.5min remaining:  3.9min
+[Parallel(n_jobs=-1)]: Done  50 out of  50 | elapsed:  6.3min finished
+
+[2025-05-29 09:34:36] Features: 49/1 -- score: -96.06794801128135[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  22 out of  49 | elapsed:  5.8min remaining:  7.1min
+[Parallel(n_jobs=-1)]: Done  47 out of  49 | elapsed:  6.9min remaining:   17.5s
+[Parallel(n_jobs=-1)]: Done  49 out of  49 | elapsed:  7.0min finished
+
+[2025-05-29 09:41:39] Features: 48/1 -- score: -96.22240649729974[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  21 out of  48 | elapsed:  5.4min remaining:  7.0min
+[Parallel(n_jobs=-1)]: Done  46 out of  48 | elapsed:  7.6min remaining:   19.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:  8.1min finished
+
+[2025-05-29 09:49:42] Features: 47/1 -- score: -96.11781659134742[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  16 out of  47 | elapsed:  4.4min remaining:  8.6min
+[Parallel(n_jobs=-1)]: Done  40 out of  47 | elapsed:  5.3min remaining:   55.3s
+[Parallel(n_jobs=-1)]: Done  47 out of  47 | elapsed:  7.0min finished
+
+[2025-05-29 09:56:43] Features: 46/1 -- score: -96.17363720779903[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  15 out of  46 | elapsed:  5.3min remaining: 11.0min
+[Parallel(n_jobs=-1)]: Done  39 out of  46 | elapsed:  7.0min remaining:  1.3min
+[Parallel(n_jobs=-1)]: Done  46 out of  46 | elapsed:  8.1min finished
+
+[2025-05-29 10:04:47] Features: 45/1 -- score: -95.87705615356535[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  10 out of  45 | elapsed:  7.2min remaining: 25.1min
+[Parallel(n_jobs=-1)]: Done  33 out of  45 | elapsed:  8.6min remaining:  3.1min
+[Parallel(n_jobs=-1)]: Done  45 out of  45 | elapsed: 10.1min finished
+
+[2025-05-29 10:14:56] Features: 44/1 -- score: -96.12766337768905[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   9 out of  44 | elapsed:  4.6min remaining: 17.9min
+[Parallel(n_jobs=-1)]: Done  32 out of  44 | elapsed:  5.8min remaining:  2.2min
+[Parallel(n_jobs=-1)]: Done  44 out of  44 | elapsed:  6.8min finished
+
+[2025-05-29 10:21:47] Features: 43/1 -- score: -96.05564245411314[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   4 out of  43 | elapsed:  3.4min remaining: 33.5min
+[Parallel(n_jobs=-1)]: Done  26 out of  43 | elapsed:  4.2min remaining:  2.8min
+[Parallel(n_jobs=-1)]: Done  43 out of  43 | elapsed:  4.9min finished
+
+[2025-05-29 10:26:41] Features: 42/1 -- score: -96.10288393055939[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   3 out of  42 | elapsed:  2.5min remaining: 32.8min
+[Parallel(n_jobs=-1)]: Done  25 out of  42 | elapsed:  3.5min remaining:  2.4min
+[Parallel(n_jobs=-1)]: Done  42 out of  42 | elapsed:  4.4min finished
+
+[2025-05-29 10:31:04] Features: 41/1 -- score: -95.85942238222353[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  19 out of  41 | elapsed:  5.1min remaining:  5.9min
+[Parallel(n_jobs=-1)]: Done  41 out of  41 | elapsed:  6.6min finished
+
+[2025-05-29 10:37:43] Features: 40/1 -- score: -95.95177082010122[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   1 tasks      | elapsed:  3.5min
+[Parallel(n_jobs=-1)]: Done  18 out of  40 | elapsed:  4.4min remaining:  5.3min
+[Parallel(n_jobs=-1)]: Done  40 out of  40 | elapsed:  5.5min finished
+
+[2025-05-29 10:43:16] Features: 39/1 -- score: -95.93256473562029[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  12 out of  39 | elapsed:  2.4min remaining:  5.5min
+[Parallel(n_jobs=-1)]: Done  32 out of  39 | elapsed:  2.9min remaining:   37.8s
+[Parallel(n_jobs=-1)]: Done  39 out of  39 | elapsed:  3.7min finished
+
+[2025-05-29 10:46:59] Features: 38/1 -- score: -96.16099690367281[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  11 out of  38 | elapsed:  4.0min remaining:  9.8min
+[Parallel(n_jobs=-1)]: Done  31 out of  38 | elapsed:  4.6min remaining:  1.0min
+[Parallel(n_jobs=-1)]: Done  38 out of  38 | elapsed:  5.4min finished
+
+[2025-05-29 10:52:21] Features: 37/1 -- score: -95.87522873388714[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   5 out of  37 | elapsed:  3.4min remaining: 21.5min
+[Parallel(n_jobs=-1)]: Done  24 out of  37 | elapsed:  4.2min remaining:  2.3min
+[Parallel(n_jobs=-1)]: Done  37 out of  37 | elapsed:  5.2min finished
+
+[2025-05-29 10:57:32] Features: 36/1 -- score: -96.07699167452782[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   4 out of  36 | elapsed:  2.5min remaining: 20.1min
+[Parallel(n_jobs=-1)]: Done  23 out of  36 | elapsed:  3.3min remaining:  1.9min
+[Parallel(n_jobs=-1)]: Done  36 out of  36 | elapsed:  4.0min finished
+
+[2025-05-29 11:01:32] Features: 35/1 -- score: -96.12959926130644[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  16 out of  35 | elapsed:  4.5min remaining:  5.4min
+[Parallel(n_jobs=-1)]: Done  35 out of  35 | elapsed:  6.3min finished
+
+[2025-05-29 11:07:50] Features: 34/1 -- score: -96.05810724201837[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  15 out of  34 | elapsed:  3.0min remaining:  3.8min
+[Parallel(n_jobs=-1)]: Done  34 out of  34 | elapsed:  4.3min finished
+
+[2025-05-29 11:12:09] Features: 33/1 -- score: -96.08435537821289[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   8 out of  33 | elapsed:  2.6min remaining:  8.0min
+[Parallel(n_jobs=-1)]: Done  25 out of  33 | elapsed:  3.3min remaining:  1.1min
+[Parallel(n_jobs=-1)]: Done  33 out of  33 | elapsed:  3.6min finished
+
+[2025-05-29 11:15:47] Features: 32/1 -- score: -96.16757473433219[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   7 out of  32 | elapsed:  4.4min remaining: 15.7min
+[Parallel(n_jobs=-1)]: Done  24 out of  32 | elapsed:  5.4min remaining:  1.8min
+[Parallel(n_jobs=-1)]: Done  32 out of  32 | elapsed:  6.4min finished
+
+[2025-05-29 11:22:13] Features: 31/1 -- score: -96.19416075675939[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  16 out of  31 | elapsed:  3.7min remaining:  3.5min
+[Parallel(n_jobs=-1)]: Done  31 out of  31 | elapsed:  4.6min finished
+
+[2025-05-29 11:26:52] Features: 30/1 -- score: -96.4724750084208[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  15 out of  30 | elapsed:  4.3min remaining:  4.3min
+[Parallel(n_jobs=-1)]: Done  30 out of  30 | elapsed:  5.4min finished
+
+[2025-05-29 11:32:14] Features: 29/1 -- score: -96.23231827313536[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   7 out of  29 | elapsed:  1.8min remaining:  5.8min
+[Parallel(n_jobs=-1)]: Done  22 out of  29 | elapsed:  2.2min remaining:   42.0s
+[Parallel(n_jobs=-1)]: Done  29 out of  29 | elapsed:  2.5min finished
+
+[2025-05-29 11:34:42] Features: 28/1 -- score: -96.26106425352768[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   6 out of  28 | elapsed:  1.9min remaining:  7.1min
+[Parallel(n_jobs=-1)]: Done  21 out of  28 | elapsed:  2.8min remaining:   56.6s
+[Parallel(n_jobs=-1)]: Done  28 out of  28 | elapsed:  3.7min finished
+
+[2025-05-29 11:38:25] Features: 27/1 -- score: -96.29921090098831[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  12 out of  27 | elapsed:  1.7min remaining:  2.1min
+[Parallel(n_jobs=-1)]: Done  27 out of  27 | elapsed:  2.7min finished
+
+[2025-05-29 11:41:06] Features: 26/1 -- score: -96.3193699632761[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  11 out of  26 | elapsed:  1.3min remaining:  1.8min
+[Parallel(n_jobs=-1)]: Done  26 out of  26 | elapsed:  2.1min finished
+
+[2025-05-29 11:43:10] Features: 25/1 -- score: -96.22092338334325[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  25 | elapsed:  1.4min remaining: 16.3min
+[Parallel(n_jobs=-1)]: Done  15 out of  25 | elapsed:  2.1min remaining:  1.4min
+[Parallel(n_jobs=-1)]: Done  25 out of  25 | elapsed:  2.7min finished
+
+[2025-05-29 11:45:50] Features: 24/1 -- score: -96.18867681105795[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  14 out of  24 | elapsed:  2.0min remaining:  1.4min
+[Parallel(n_jobs=-1)]: Done  24 out of  24 | elapsed:  3.0min finished
+
+[2025-05-29 11:48:51] Features: 23/1 -- score: -96.32789180177018[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   4 out of  23 | elapsed:  1.6min remaining:  7.7min
+[Parallel(n_jobs=-1)]: Done  16 out of  23 | elapsed:  2.4min remaining:  1.1min
+[Parallel(n_jobs=-1)]: Done  23 out of  23 | elapsed:  3.2min finished
+
+[2025-05-29 11:52:05] Features: 22/1 -- score: -96.35451508263185[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   3 out of  22 | elapsed:  1.9min remaining: 11.9min
+[Parallel(n_jobs=-1)]: Done  15 out of  22 | elapsed:  2.1min remaining:   59.8s
+[Parallel(n_jobs=-1)]: Done  22 out of  22 | elapsed:  3.0min finished
+
+[2025-05-29 11:55:08] Features: 21/1 -- score: -96.53771606974338[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   4 out of  21 | elapsed:  1.2min remaining:  5.3min
+[Parallel(n_jobs=-1)]: Done  15 out of  21 | elapsed:  1.9min remaining:   45.9s
+[Parallel(n_jobs=-1)]: Done  21 out of  21 | elapsed:  2.6min finished
+
+[2025-05-29 11:57:46] Features: 20/1 -- score: -96.34881079859169[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   3 out of  20 | elapsed:   58.8s remaining:  5.6min
+[Parallel(n_jobs=-1)]: Done  14 out of  20 | elapsed:  1.4min remaining:   34.8s
+[Parallel(n_jobs=-1)]: Done  20 out of  20 | elapsed:  1.5min finished
+
+[2025-05-29 11:59:18] Features: 19/1 -- score: -96.48619093824541[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  19 | elapsed:  1.1min remaining:  9.1min
+[Parallel(n_jobs=-1)]: Done  12 out of  19 | elapsed:  1.4min remaining:   50.6s
+[Parallel(n_jobs=-1)]: Done  19 out of  19 | elapsed:  1.8min finished
+
+[2025-05-29 12:01:05] Features: 18/1 -- score: -96.59887404833125[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done  11 out of  18 | elapsed:   49.8s remaining:   31.7s
+[Parallel(n_jobs=-1)]: Done  18 out of  18 | elapsed:  1.1min finished
+
+[2025-05-29 12:02:12] Features: 17/1 -- score: -96.66504942405489[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   7 out of  17 | elapsed:   49.9s remaining:  1.2min
+[Parallel(n_jobs=-1)]: Done  17 out of  17 | elapsed:  1.4min finished
+
+[2025-05-29 12:03:36] Features: 16/1 -- score: -96.9888412882827[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   6 out of  16 | elapsed:  1.0min remaining:  1.7min
+[Parallel(n_jobs=-1)]: Done  16 out of  16 | elapsed:  2.1min finished
+
+[2025-05-29 12:05:40] Features: 15/1 -- score: -97.11055574546225[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   8 out of  15 | elapsed:  1.1min remaining:   55.2s
+[Parallel(n_jobs=-1)]: Done  15 out of  15 | elapsed:  1.8min finished
+
+[2025-05-29 12:07:28] Features: 14/1 -- score: -96.9870884220151[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   7 out of  14 | elapsed:  1.0min remaining:  1.0min
+[Parallel(n_jobs=-1)]: Done  14 out of  14 | elapsed:  2.0min finished
+
+[2025-05-29 12:09:27] Features: 13/1 -- score: -97.23691144908942[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   5 out of  13 | elapsed:   41.8s remaining:  1.1min
+[Parallel(n_jobs=-1)]: Done  13 out of  13 | elapsed:  1.0min finished
+
+[2025-05-29 12:10:29] Features: 12/1 -- score: -97.51031337239432[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   4 out of  12 | elapsed:   33.9s remaining:  1.1min
+[Parallel(n_jobs=-1)]: Done  12 out of  12 | elapsed:   55.1s finished
+
+[2025-05-29 12:11:25] Features: 11/1 -- score: -97.76359959305665[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   4 out of  11 | elapsed:   31.6s remaining:   55.3s
+[Parallel(n_jobs=-1)]: Done  11 out of  11 | elapsed:   51.2s finished
+
+[2025-05-29 12:12:16] Features: 10/1 -- score: -97.93878275370915[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   3 out of  10 | elapsed:   27.5s remaining:  1.1min
+[Parallel(n_jobs=-1)]: Done  10 out of  10 | elapsed:   54.9s finished
+
+[2025-05-29 12:13:11] Features: 9/1 -- score: -98.13721086516904[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of   9 | elapsed:   17.7s remaining:  1.0min
+[Parallel(n_jobs=-1)]: Done   7 out of   9 | elapsed:   37.8s remaining:   10.8s
+[Parallel(n_jobs=-1)]: Done   9 out of   9 | elapsed:   42.7s finished
+
+[2025-05-29 12:13:54] Features: 8/1 -- score: -98.2656984476061[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   6 out of   8 | elapsed:   46.9s remaining:   15.6s
+[Parallel(n_jobs=-1)]: Done   8 out of   8 | elapsed:  1.1min finished
+
+[2025-05-29 12:15:02] Features: 7/1 -- score: -98.43382409254887[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   4 out of   7 | elapsed:   19.2s remaining:   14.4s
+[Parallel(n_jobs=-1)]: Done   7 out of   7 | elapsed:   31.5s finished
+
+[2025-05-29 12:15:33] Features: 6/1 -- score: -98.7082501739169[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   3 out of   6 | elapsed:   22.7s remaining:   22.7s
+[Parallel(n_jobs=-1)]: Done   6 out of   6 | elapsed:   27.1s finished
+
+[2025-05-29 12:16:00] Features: 5/1 -- score: -99.02465178716943[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   5 out of   5 | elapsed:   25.9s finished
+
+[2025-05-29 12:16:26] Features: 4/1 -- score: -99.98215330981029[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   4 out of   4 | elapsed:   13.0s finished
+
+[2025-05-29 12:16:39] Features: 3/1 -- score: -99.95757524032196[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   3 out of   3 | elapsed:   15.9s finished
+
+[2025-05-29 12:16:55] Features: 2/1 -- score: -101.66965872611489[Parallel(n_jobs=-1)]: Using backend LokyBackend with 64 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of   2 | elapsed:   13.9s finished
+
+[2025-05-29 12:17:09] Features: 1/1 -- score: -107.27866532890752  0%|          | 0/13 [00:00<?, ?it/s]/vsc-hard-mounts/leuven-data/377/vsc37708/source/Cross_Validation.py:141: FutureWarning: The behavior of array concatenation with empty entries is deprecated. In a future version, this will no longer exclude empty items when determining the result dtype. To retain the old behavior, exclude the empty entries before the concat operation.
+  backtest = pd.concat([backtest, y_test], axis=0)
+  8%|▊         | 1/13 [00:00<00:06,  1.77it/s] 15%|█▌        | 2/13 [00:01<00:09,  1.16it/s] 23%|██▎       | 3/13 [00:03<00:12,  1.29s/it] 31%|███       | 4/13 [00:04<00:10,  1.13s/it] 38%|███▊      | 5/13 [00:05<00:09,  1.13s/it] 46%|████▌     | 6/13 [00:06<00:07,  1.10s/it] 54%|█████▍    | 7/13 [00:07<00:05,  1.05it/s] 62%|██████▏   | 8/13 [00:08<00:04,  1.02it/s] 69%|██████▉   | 9/13 [00:08<00:03,  1.09it/s] 77%|███████▋  | 10/13 [00:09<00:02,  1.20it/s] 85%|████████▍ | 11/13 [00:11<00:02,  1.11s/it] 92%|█████████▏| 12/13 [00:13<00:01,  1.50s/it]100%|██████████| 13/13 [00:15<00:00,  1.70s/it]100%|██████████| 13/13 [00:15<00:00,  1.22s/it]
